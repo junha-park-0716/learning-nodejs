@@ -1,0 +1,26 @@
+{
+  "private": "true",
+  "name": "section5_cli-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js lib/**/*.js",
+    "test": "jest",
+    "format": "prettier --write *.js lib/**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "gitignore": "^0.7.0",
+    "marked": "^9.1.5",
+    "prettier": "^3.0.3",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "jest": "^29.7.0"
+  }
+}

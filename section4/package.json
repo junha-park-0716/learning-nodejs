@@ -1,0 +1,17 @@
+{
+  "name": "section4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gitignore": "^0.7.0",
+    "timers": "^0.1.1",
+    "undici": "^5.27.2"
+  }
+}
